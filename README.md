@@ -7,7 +7,7 @@
 
 O **Simulador RPG com Testes Unitários** é um projeto em **Java** que implementa um simulador de batalhas de RPG com foco em **boas práticas de programação**, **organização modular de código** e **cobertura de testes automatizados**. O objetivo é permitir que usuários e estudantes entendam como estruturar lógica de jogo, aplicar testes unitários e manter o código extensível.
 
-Este projeto simula mecânicas clássicas de RPG como criação de personagens, atributos, combate e evolução. :contentReference[oaicite:1]{index=1}
+Este projeto simula mecânicas clássicas de RPG como criação de personagens, atributos, combate e evolução.
 
 ---
 
