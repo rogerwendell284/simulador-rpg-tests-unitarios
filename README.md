@@ -1,42 +1,41 @@
-# Simulador de Batalha RPG
+# 🎲 Simulador RPG com Testes Unitários
 
-Este é um simples simulador de batalha RPG de linha de comando escrito em Java.
+[![Status](https://img.shields.io/badge/status-em%20desenvolvimento-yellow)](https://github.com/rogerwendell284/simulador-rpg-tests-unitarios)
+[![Stars](https://img.shields.io/github/stars/rogerwendell284/simulador-rpg-tests-unitarios?style=social)](https://github.com/rogerwendell284/simulador-rpg-tests-unitarios/stargazers)
 
-## Funcionalidades
+## 📌 Descrição
 
-*   Escolha entre 4 classes de personagens: Guerreiro, Mago, Ladino e Arqueiro.
-*   Participe de uma batalha simulada entre dois personagens.
-*   Acompanhe o desenrolar da batalha através das mensagens no console.
+O **Simulador RPG com Testes Unitários** é um projeto em **Java** que implementa um simulador de batalhas de RPG com foco em **boas práticas de programação**, **organização modular de código** e **cobertura de testes automatizados**. O objetivo é permitir que usuários e estudantes entendam como estruturar lógica de jogo, aplicar testes unitários e manter o código extensível.
 
-## Como Executar
+Este projeto simula mecânicas clássicas de RPG como criação de personagens, atributos, combate e evolução. :contentReference[oaicite:1]{index=1}
 
-### Pré-requisitos
+---
 
-*   Java 11 ou superior
-*   Maven
+## 🧠 Principais Funcionalidades
 
-### Passos
+- 🧍‍♂️ Criação de personagens com classes diferentes  
+- ⚔️ Simulação de batalhas entre dois personagens  
+- 📊 Sistema de atributos (vida, ataque, defesa, etc.)  
+- ✅ Testes unitários cobrindo funcionalidades essenciais  
+- 📦 Estrutura de código organizada e modular  
+- 🚀 Fácil execução e expansão
 
-1.  Clone o repositório:
-    ```sh
-    git clone <URL_DO_REPOSITORIO>
-    ```
-2.  Navegue até o diretório do projeto:
-    ```sh
-    cd simulador-rpg-tests-unitarios
-    ```
-3.  Compile o projeto e execute os testes usando o Maven:
-    ```sh
-    mvn -f br/com/rogerWendell/demo/pom.xml clean install
-    ```
-4.  Execute a aplicação:
-    ```sh
-    java -cp br/com/rogerWendell/demo/target/classes App
-    ```
+---
 
-## Estrutura do Projeto
+## 🚀 Começando
 
-*   `src/main/java/App.java`: O ponto de entrada da aplicação, contém a lógica principal do simulador.
-*   `src/main/java/simuladorRpg/Character.java`: Define a classe `Character` com seus atributos e métodos.
-*   `src/test/java/tests/CharacterTest.java`: Contém os testes unitários para a classe `Character`.
-*   `pom.xml`: O arquivo de configuração do Maven para o projeto.
+### 📋 Pré-requisitos
+
+Antes de começar, você vai precisar ter instalado:
+
+- 🟢 **Java 11** ou superior  
+- 🛠️ **Maven** (para compilar, testar e rodar o projeto)
+
+---
+
+## 📌 Como Executar
+
+### 1. Clone este repositório
+
+```bash
+git clone https://github.com/rogerwendell284/simulador-rpg-tests-unitarios.git
